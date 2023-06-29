@@ -17,3 +17,17 @@ function intro3(name, stadt, alter){
 
 intro3("Marco", "München", 26);
 intro3("Felix", "Magdeburg", 24);
+
+console.log("%c =================================", "background: red; color:white");
+
+function math(number1, number2) {
+  console.log(`Multiplikation: ${number1} * ${number2} = `,number1*number2);
+  console.log(`Division: ${number1} / ${number2} = `,number1/number2);
+}
+
+math(10,2);
+math(30,20);
+math(100,100);
+math(5,0);
+math(45,173);
+math(1,1000);
